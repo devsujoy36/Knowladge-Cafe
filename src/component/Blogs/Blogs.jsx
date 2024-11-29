@@ -16,15 +16,12 @@ const Blogs = () => {
 
 
     return (
-        <div className="max-w-screen-2xl mx-auto px-6 py-10">
-            <h1>Here are all Blogs</h1>
-            <div className="grid">
-                <div className="grid-">
-                    {
-                        blogs.map(blog => <Blog key={blog.id} blog={blog} />)
-                    }
+        <div className="lg:max-w-screen-2xl mx-auto lg:px-48 lg:py-10">
+            <h1 className="text-2xl text-center font-semibold my-5">Here are all Blogs</h1>
+            <div className="flex border lg:flex-row flex-col">
+                <div className="lg:w-2/3"> {blogs.map(blog => <Blog key={blog.id} blog={blog} />)} 
                 </div>
-                <div>
+                <div className="lg:w-1/3">
                     <Reading />
                 </div>
             </div>

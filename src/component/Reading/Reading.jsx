@@ -3,6 +3,10 @@ const Reading = () => {
         <div>
             
             <h1>Reading section</h1>
+            <h1>Reading section</h1>
+            <h1>Reading section</h1>
+            <h1>Reading section</h1>
+            <h1>Reading section</h1>
         </div>
     );
 };
