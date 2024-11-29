@@ -21,15 +21,11 @@ const Blogs = () => {
         const newBookmark = [...bookmarks, blog]
         setBookmarks(newBookmark);
     }
-    const handleMarkAsRead = (blog) => {
-        const {reading_time} = blog;
-        newReadTime = readingTime + reading_time;
-        setReadingTime(newReadTime);
+
+    const handleMarkAsRead = (reading_time) => {
+        setReadingTime(readingTime+reading_time)
     }
 
-    
-
-console.log(readingTime);
 
 
     return (

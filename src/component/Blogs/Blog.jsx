@@ -29,7 +29,7 @@ const Blog = ({ blog, handleAddToBookmark,handleMarkAsRead }) => {
             <div className="flex gap-3 my-2 font-semibold">
                 {hashtags.map(hash => <span className="active:scale-95 transition" key={hash}><a href="#">{hash}</a></span>)}
             </div>
-            <button onClick={()=>{handleMarkAsRead(blog)}} className="text-xs underline text-blue-500 hover:text-red-500 ">Read More</button>
+            <button onClick={()=>{handleMarkAsRead(reading_time)}} className="text-xs underline text-blue-500 hover:text-red-500 ">Read More</button>
         </div>
     );
 };
