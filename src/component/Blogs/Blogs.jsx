@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import Blog from "./Blog";
-import Reading from "../Reading/Reading";
+import Reading from "../Bookmark/Bookmark";
 
 const Blogs = () => {
     const [blogs, setBlogs] = useState([])
