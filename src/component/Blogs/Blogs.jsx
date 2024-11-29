@@ -23,7 +23,7 @@ const Blogs = () => {
     }
 
     const handleMarkAsRead = (reading_time) => {
-        setReadingTime(readingTime+reading_time)
+        setReadingTime(readingTime + reading_time)
     }
 
 
