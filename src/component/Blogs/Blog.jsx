@@ -4,7 +4,7 @@ import { FaBookmark } from "react-icons/fa";
 // eslint-disable-next-line react/prop-types
 const Blog = ({ blog, handleAddToBookmark,handleMarkAsRead }) => {
     // eslint-disable-next-line react/prop-types
-    const { cover, title, author, author_img, post_date, reading_time, hashtags } = blog;
+    const { id, cover, title, author, author_img, post_date, reading_time, hashtags } = blog;
 
     return (
         <div className="p-5 border mb-2">
@@ -29,7 +29,7 @@ const Blog = ({ blog, handleAddToBookmark,handleMarkAsRead }) => {
             <div className="flex gap-3 my-2 font-semibold">
                 {hashtags.map(hash => <span className="active:scale-95 transition" key={hash}><a href="#">{hash}</a></span>)}
             </div>
-            <button onClick={()=>{handleMarkAsRead(reading_time)}} className="text-xs underline text-blue-500 hover:text-red-500 ">Read More</button>
+            <button onClick={()=>{handleMarkAsRead(reading_time,id)}} className="text-xs underline text-blue-500 hover:text-red-500 ">Read More</button>
         </div>
     );
 };
