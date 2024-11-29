@@ -1,0 +1,53 @@
+[
+    {
+      "id": 1,
+      "cover": "./imgs/The Silent Echo.jpg",
+      "title": "The Secrets of the Ocean",
+      "author": "Alice M. Stevens",
+      "author_img": "./imgs-author/author 1.jpg",
+      "post_date": "November 25, 2024",
+      "reading_time": 15,
+      "hashtags": ["#ocean", "#adventure", "#secrets", "#nature"]
+    },
+    {
+      "id": 2,
+      "cover": "./imgs/Whispers of the Wind.jpg",
+      "title": "The Dark Web Chronicles",
+      "author": "John K. Black",
+      "author_img": "./imgs-author/author 2.jpg",
+      "post_date": "November 27, 2024",
+      "reading_time": 25,
+      "hashtags": ["#tech", "#darkweb", "#mystery", "#thriller"]
+    },
+    {
+      "id": 3,
+      "cover": "./imgs/Beyond the Horizon.jpg",
+      "title": "Journey to the Stars",
+      "author": "Zoe J. Turner",
+      "author_img": "./imgs-author/author 3.jpg",
+      "post_date": "November 20, 2024",
+      "reading_time": 30,
+      "hashtags": ["#space", "#sci-fi", "#exploration", "#future"]
+    },
+    {
+      "id": 4,
+      "cover": "./imgs/The Art of Solitude.jpg",
+      "title": "Whispers in the Woods",
+      "author": "David A. Brown",
+      "author_img": "./imgs-author/author 4.jpg",
+      "post_date": "November 22, 2024",
+      "reading_time": 20,
+      "hashtags": ["#mystery", "#horror", "#thriller", "#forest"]
+    },
+    {
+      "id": 5,
+      "cover": "./imgs/Echoes of the Past.jpg",
+      "title": "Cooking with Love",
+      "author": "Sophie L. Grace",
+      "author_img": "./imgs-author/author 5.jpg",
+      "post_date": "November 18, 2024",
+      "reading_time": 10,
+      "hashtags": ["#cooking", "#love", "#recipes", "#food"]
+    }
+  ]
+  
